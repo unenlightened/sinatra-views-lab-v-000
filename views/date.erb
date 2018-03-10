@@ -1,5 +1,5 @@
 <h1>Today</h1>
 
-<%
+<%require 'date'
   date = DateTime.now%>
 <p><%date.strftime("The date is %A, %B %e, %Y")%></p>
